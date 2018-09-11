@@ -1,7 +1,7 @@
 module.exports =
-__NEXT_REGISTER_PAGE('/', function() {
+__NEXT_REGISTER_PAGE('/about', function() {
           var comp =
-      webpackJsonp([4],{
+      webpackJsonp([5],{
 
 /***/ "./components/containers/headerContainer/headerContainer.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -983,7 +983,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -991,11 +991,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_containers_headerContainer_headerContainer__ = __webpack_require__("./components/containers/headerContainer/headerContainer.js");
-var _jsxFileName = "/Users/ninibozmen/Desktop/code/nextjs-reactjs-setup/pages/index.js";
+var _jsxFileName = "/Users/ninibozmen/Desktop/code/nextjs-reactjs-setup/pages/about.js";
 
 
-
-var headerContainer = function headerContainer() {
+/* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -1011,10 +1010,8 @@ var headerContainer = function headerContainer() {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, "This is the start page"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (headerContainer);
+  }, "This is the about page"));
+});
     (function (Component, route) {
       if(!Component) return
       if (false) return
@@ -1031,22 +1028,22 @@ var headerContainer = function headerContainer() {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/about")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/about.js");
 
 
 /***/ })
 
-},[3])
+},[4])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map

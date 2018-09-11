@@ -1,8 +1,10 @@
-import Header from './container/components/header'
+import HeaderContainer from '../components/containers/headerContainer/headerContainer'
 
-export default () => (
+const headerContainer = () => (
   <div>
-    <Header />
-    <p>Hello Next.js</p>
+  <HeaderContainer />
+  <p>This is the start page</p>
   </div>
 )
+
+export default headerContainer

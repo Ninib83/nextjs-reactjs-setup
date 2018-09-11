@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -150,7 +150,7 @@ var Header = function Header() {
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -158,11 +158,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_containers_headerContainer_headerContainer__ = __webpack_require__("./components/containers/headerContainer/headerContainer.js");
-var _jsxFileName = "/Users/ninibozmen/Desktop/code/nextjs-reactjs-setup/pages/index.js";
+var _jsxFileName = "/Users/ninibozmen/Desktop/code/nextjs-reactjs-setup/pages/about.js";
 
 
-
-var headerContainer = function headerContainer() {
+/* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
@@ -178,17 +177,15 @@ var headerContainer = function headerContainer() {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, "This is the start page"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (headerContainer);
+  }, "This is the about page"));
+});
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/about.js");
 
 
 /***/ }),
@@ -208,4 +205,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map

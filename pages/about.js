@@ -1,8 +1,8 @@
-import Header from './container/components/header'
+import HeaderContainer from '../components/containers/headerContainer/headerContainer'
 
 export default () => (
   <div>
-    <Header />
+    <HeaderContainer />
     <p>This is the about page</p>
   </div>
 )
