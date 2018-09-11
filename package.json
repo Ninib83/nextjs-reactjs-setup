@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Ninib83/nextjs-reactjs-setup/issues"
   },
-  "homepage": "https://github.com/Ninib83/nextjs-reactjs-setup#readme"
+  "homepage": "https://github.com/Ninib83/nextjs-reactjs-setup#readme",
+  "dependencies": {
+    "next": "^6.1.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  }
 }
